@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    /* background-color: rgb(128, 134, 139); */
+}
+
+input {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #0e9245;
+}
+
+#input-btn, #delete-btn, #tab-btn {
+    color: white;
+    background-color: #0e9245;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-top: 3px;
+    border: 1px solid black;
+    font-weight: bold;
+    transition: all 200ms ease-in-out;
+
+}
+
+#input-btn:hover,
+#delete-btn:hover,
+#tab-btn:hover {
+    color: #0e9245;
+    background-color: #ffffff;
+    border: 1px solid #0e9245;
+    /* transform: translateX(100%); */
+
+}
+
+#ul-el {
+    color: #0e9245;
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.5;
+}
+
+li a {
+    color: #0e9245;
+}
